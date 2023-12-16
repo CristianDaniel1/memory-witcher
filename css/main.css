@@ -69,10 +69,6 @@ body,
   z-index: -1;
 }
 
-.container {
-  width: 100%;
-}
-
 .container-cards {
   display: flex;
   flex-wrap: wrap;
@@ -88,16 +84,14 @@ body,
   border: 5px solid rgba(180, 72, 0, 0.356);
   border-radius: 1rem;
   padding: 2rem;
-  position: relative;
-  transition: 0.5s all;
-  margin: 1rem auto 4rem;
+  margin: 1rem 2rem 4rem;
 }
 
 .card {
   display: block;
   width: 12rem;
   height: 17.5rem;
-  transition: 0.5s;
+  transition: 0.5s all;
   position: relative;
   cursor: pointer;
   transform-style: preserve-3d;
@@ -115,8 +109,6 @@ body,
       rgb(105, 64, 30)
     )
     1;
-  position: absolute;
-  transition: 0.4s all;
   backface-visibility: hidden;
 }
 
